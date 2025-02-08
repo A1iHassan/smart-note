@@ -1,0 +1,20 @@
+{
+  "name": "auth_practice",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.0",
+    "@types/figlet": "^1.7.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun --watch server.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "figlet": "^1.8.0"
+  }
+}
